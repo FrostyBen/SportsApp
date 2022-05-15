@@ -11,7 +11,7 @@ class StandingsInitial extends StandingsState {}
 
 class StandingsLoaded extends StandingsState{
 
-  final StandingsData standingsData;
+  final LeaguesData standingsData;
 
   StandingsLoaded({required this.standingsData});
 }

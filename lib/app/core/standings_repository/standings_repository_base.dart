@@ -1,5 +1,5 @@
-import 'package:sports_app/app/core/network/models/standings_data.dart';
+import 'package:sports_app/app/core/network/models/leagues_data.dart';
 
 abstract class StandingsRepositoryBase{
-  Future <StandingsData> getStendingsData();
+  Future <LeaguesData> getStendingsData();
 }
